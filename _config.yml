@@ -1,0 +1,52 @@
+title: Bay Jekyll Theme
+description: Bay is a minimal Jekyll Theme.
+baseurl: ''
+url: ''
+og_image: /assets/img/profile-pic.jpg
+google_analytics: UA-121636368-3
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Work
+    - name: Blog
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: yourmail@domain.com
+      link: 'mailto:yourmail@domain.com'
+    - name: WeChat
+      value: YourWeChatUsername
+      link: '#'
+  follow:
+    - name: Twitter
+      link: 'http://twitter.com/YourTwitterUsername'
+      username: '@YourTwitterUsername'
+    - name: Facebook
+      link: 'http://facebook.com/YourFacebookUsername'
+    - name: LinkedIn
+      link: 'http://linkedin.com/in/YourLinkedInUsername'
+    - name: GitHub
+      link: 'http://github.com/YourGitHubUsername'
+    - name: Dribbble
+      link: 'https://dribbble.com/YourDribbbleUsername'
+    - name: RSS
+      link: /feed.xml
+markdown: kramdown
+sass:
+  style: ':compressed'
+plugins:
+  - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+version: 1
